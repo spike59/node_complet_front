@@ -1,0 +1,5 @@
+A LANCER DANS CMD plutot POWERSHELL c 'est plus simple
+back symlink pour shared
+mklink /J D:\DEV_Formation_CDA\applis_node_react\node_complet_back\shared D:\DEV_Formation_CDA\applis_node_react\node_complet_shared
+front symlink pour shared
+mklink /J D:\DEV_Formation_CDA\applis_node_react\node_complet_front\shared D:\DEV_Formation_CDA\applis_node_react\node_complet_shared
