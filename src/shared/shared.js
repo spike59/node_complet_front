@@ -1,5 +1,5 @@
 const shared = {
-    truc: "bidule2"
+    truc: "bidule4"
 }
 
 module.exports = shared;

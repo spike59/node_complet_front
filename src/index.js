@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
+import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
+//import './index.css';
 import App from './App';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
+import { ProfilProvider } from './contexts/profil_context';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <ProfilProvider>
+        <App />
+      </ProfilProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
